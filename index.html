@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Plitka</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
@@ -10,23 +11,20 @@
 		<div class="header_section">
 			<div class="header_item header_logo">wdb</div>
 		</div>
-		<div class="header_section">
-			<div class="header_item headerButton"><a href="#">Главная</a></div>
-			<div class="header_item headerButton"><a href="#">Каталог</a></div>
-			<div class="header_item headerButton"><a href="#">о компании</a></div>
-		</div>
+		<ul class="header_section">
+			<li class="header_item headerButton"><a href="#">Главная</a></li>
+			<li class="header_item headerButton"><a href="#">Каталог</a></li>
+			<li class="header_item headerButton"><a href="#">Контакты</a></li>
+		</ul>
 	</div>
-	<div class="ToDay"></div>
-	<div class="OnWeak"></div>
-	<div class="NewsRassulki"></div>
 	<div class="wrap">
 		<div class="slider">
 			<button onclick="prev()">&laquo;</button>
 			<div class="scroller">
 				<ul class="items">
-					<li class="item" style="background-image: url(img/4.jpg);"></li>
-					<li class="item" style="background-image: url(img/2.jpg);"></li>
-					<li class="item" style="background-image: url(img/3.jpg);"></li>
+					<li class="item"><img src="img/4.jpg"></li>
+					<li class="item"><img src="img/5.jpg"></li>
+					<li class="item"><img src="img/3.jpg"></li>
 				</ul>
 			</div>
 			<button onclick="next()">&raquo;</button>
