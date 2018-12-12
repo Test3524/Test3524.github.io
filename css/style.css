@@ -1,10 +1,29 @@
-a{
-	color:#fff;
-	text-decoration: none;
-}
 body{
 	margin: 0 auto;
 	background: #333;
+}
+button{
+	width: 30px;
+	border: none;
+	background: transparent;
+	color:#fff;
+	font-size: 40px;
+	text-align: center;
+	outline: none;
+	opacity: 0.5;
+	transition: opacity 300ms ease-out;
+}
+button:hover{
+	opacity: 1;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.link{
+	color:#fff;
+	text-decoration: none;
 }
 .header{
 	margin: 0;
@@ -41,29 +60,11 @@ body{
 .wrap{
 	display: flex;
 	align-items: stretch;
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	flex-direction: column;
 }
-button{
-	width: 30px;
-	border: none;
-	background: transparent;
-	color:#fff;
-	font-size: 40px;
-	text-align: center;
-	outline: none;
-	opacity: 0.5;
-	transition: opacity 300ms ease-out;
-}
-button:hover{
-	opacity: 1;
-}
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 .slider{
 	display: flex;
 	flex-direction: row;
@@ -88,13 +89,67 @@ button:hover{
 	text-align: center;
 	
 }
-img{
+.img_wrap{
 	height: 100%;
 	width: 100%;
+}
+.contaks{
+	width: 100%;
+	display:flex;
+	
+}
+.catalog{
+	align-items: center;
+	margin-left: 30px;
+	font-family: Arial;
+	font-size: 30px;
+}
+.footer{
+	margin: 0;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background: #2d2d2d;
+	color: #dc134c;
+	font-family: Arial;
+}
+.footer_section{
+	/*display: flex;
+	align-items: center;
+	list-style: none;*/
+}
+.footer_item{
+	padding: 10px 15px;
+	font-size: 10px;
+	margin-left: 5px;
+}
+.footer_item:hover{
+	color: #fff;
+
+}
+.footerlogo{
+
+}
+.footerButton{
+	cursor: pointer; 
+}
+.link_footer{
+	color:#fff;
+	text-decoration: none;
+}
+
+.link_footer:hover{
+	color: #dc134c;
 }
 @media screen and (min-width:200px) and (max-width:526px) {
 	button{
 	width: 20px;
+	}
+	.wrap{
+		width: 100%;	
+		heght:250px;
 	}
 	.header_item{
 		padding: 10px 15px;
@@ -102,6 +157,7 @@ img{
 	.item{
 	padding: 10px 15px;
 	background-position: none;
-	width: 98%
-}
+	width: 98%;
+	height: 250px;	
+	}
 }
