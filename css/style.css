@@ -330,6 +330,9 @@ button:hover{
 	margin-left: 25%;
 	margin-top: 10%;
 }
+.reviews{
+	background: #fff;
+}
 @media screen and (min-width:1347px) and (max-width:2000px) {
 	
 	.contaks{
@@ -390,6 +393,7 @@ button:hover{
 		flex-wrap: wrap;
 		font-size: 18px;
 	}
+	
 }
 @media screen and (min-width:526px) and (max-width:600px) {
 	button{
@@ -471,5 +475,10 @@ button:hover{
 		width:100%;
 		font-size: 16px;
 		flex-wrap: wrap;
+	}
+	#disqus_thread{
+		width: 80%;
+		margin-left: 5%;
+		margin-top: 5%;
 	}
 }
