@@ -89,7 +89,7 @@ button:hover{
 	background-image: url(../img/10.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
-	color: #fff;
+	color: #dc134c;
 	font-family: Arial;
 	height: 700px
 }
@@ -106,7 +106,7 @@ button:hover{
 	list-style: none;
 }
 .blinky_item:hover{
-	color: #dc134c;
+	color: #2d2d2d;
 
 }
 .blinkylogo{
