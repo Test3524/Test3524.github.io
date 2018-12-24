@@ -435,6 +435,11 @@ button:hover{
 		flex-wrap: wrap;
 		font-size: 16px;
 	}
+	#disqus_thread{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 10%;
+	}
 }
 @media screen and (min-width:200px) and (max-width:526px) {
 	button{
