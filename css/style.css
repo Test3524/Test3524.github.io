@@ -282,39 +282,17 @@ button:hover{
 	top: 0;
 	left: 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 10px;
 	background: #fff;
 	color: #dc134c;
 	font-family: Arial;
 }
-.price_section{
-	/*display: flex;
-	align-items: center;
-	list-style: none;*/
-}
-.price_item{
-	padding: 10px 15px;
-	font-size: 10px;
-	margin-left: 5px;
-}
-.price_item:hover{
-	color: #dc134c;
-
-}
-.pricelogo{
-
-}
-.priceButton{
-	cursor: pointer; 
-}
-.link_price{
+.price-text{
 	color:#dc134c;
-	text-decoration: none;
-}
-
-.link_price:hover{
-	color: #dc134c;
+	font-family: Arial;
+	font-size: 30px;
+	padding: 20px;
 }
 .catalog{
 	align-items: center;
@@ -336,6 +314,41 @@ button:hover{
 .reviews{
 	background: #fff;
 }
+.table_col {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	width: 660px;
+	background: white;
+	text-align: left;
+	border-collapse: collapse;
+	color: #3E4347;
+	display: inline-block;
+  }
+  .table_col th:first-child, .table_col td:first-child {
+  color: #F5F6F6;
+  border-left: none;
+  }
+  .table_col th {
+  font-weight: normal;
+  border-bottom: 2px solid #F5E1A6;
+  border-right: 20px solid white;
+  border-left: 20px solid white;
+  padding: 8px 10px;
+  }
+  .table_col td {
+  border-right: 20px solid white;
+  border-left: 20px solid white;
+  padding: 12px 10px;
+  color: #8b8e91;
+  }
+  
+   
+@media screen and (max-width: 600px) {
+	.table_col {
+	  overflow-y: scroll;
+	  padding: 2rem 2rem;
+	}
+  }
 @media screen and (min-width:1347px) and (max-width:2000px) {
 	
 	.contaks{
@@ -344,11 +357,17 @@ button:hover{
 		font-size: 20px;
 		flex-wrap: wrap;
 	}
-	
+	.price{
+
+		margin: 110px 240px; 
+		font-size: 20px;
+		flex-wrap: wrap;
+	}
 	#toTop {
-   		width: 4%;
-    	height: 4%;
-   		bottom: 4%;
+   		width: 1%;
+    	height: 1%;
+		bottom: 1%;
+		background-size: 40%;
 	}
 	.item{
 		height: 850px;
@@ -395,6 +414,9 @@ button:hover{
 		width: 100%;
 		flex-wrap: wrap;
 		font-size: 18px;
+	}
+	.prise-text{
+		font-size: 20px;
 	}
 	
 }
@@ -443,6 +465,9 @@ button:hover{
 		margin-left: 5%;
 		margin-top: 10%;
 	}
+	.prise-text{
+		font-size: 16px;
+	}
 }
 @media screen and (min-width:200px) and (max-width:526px) {
 	button{
@@ -483,10 +508,14 @@ button:hover{
 		width:100%;
 		font-size: 16px;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	#disqus_thread{
 		width: 80%;
 		margin-left: 5%;
 		margin-top: 5%;
+	}
+	.prise-text{
+		font-size: 16px;
 	}
 }
